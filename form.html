@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form For Pitha</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home.html"> Home</a></li>
+        <li><a href="audio_video.html">Media</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+      </ul>
+    </nav>
+    <h2>Welcome to Jamaler Ma Pitha Ghor</h2>
+    <form action="">
+      <label for="Name"
+        >Your Name
+        <input type="text" name="" id="Name" placeholder="Enter Your Name" />
+      </label>
+      <label for="email"
+        >Your Email
+        <input type="text" name="" id="email" placeholder="Enter Your Email" />
+      </label>
+      <label for="Number"
+        >Your Number
+        <input
+          type="number"
+          name=""
+          id="number"
+          placeholder="Enter Your Phone number"
+        />
+      </label>
+      <fieldset>
+        <legend>Pick One Pitha</legend>
+        <label for="chitoi">
+          <input type="radio" name="pitha" id="chitoi" />
+          Chitoi</label
+        >
+        <label for="vapa">
+          <input type="radio" name="pitha" id="vapa" />Vapa pitha
+        </label>
+        <label for="puli">
+          <input type="radio" name="pitha" id="Puli" />Puli pitha
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select One or more Vortas</legend>
+        <label for="sorisha">
+          <input type="checkbox" name="vorta" id="sorisha" /> Sorisha</label
+        >
+        <label for="shutki">
+          <input type="checkbox" name="vorta" id="shutki" /> Shutki</label
+        >
+        <label for="dal">
+          <input type="checkbox" name="vorta" id="dal" /> Dal</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Special Instructions</legend>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+      </fieldset>
+      <br />
+
+      <input type="reset" />
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
